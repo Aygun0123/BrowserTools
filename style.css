@@ -1,0 +1,55 @@
+    body {
+        font-family: Arial, sans-serif;
+        background: #eef2f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .panel {
+        background: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        width: 100%;
+        max-width: 500px;
+    }
+
+    button {
+        margin: 6px 0;
+        padding: 12px;
+        width: 100%;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background: #007BFF;
+        color: white;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #0056b3;
+    }
+
+    .output {
+        margin-top: 8px;
+        padding: 10px;
+        background: #fff;
+        border-radius: 6px;
+        word-wrap: break-word;
+    }
+
+    .status-online {
+        color: green;
+        font-weight: bold;
+    }
+    .status-offline {
+        color: red;
+        font-weight: bold;
+    }

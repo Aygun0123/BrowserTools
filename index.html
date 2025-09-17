@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Interactive Browser Panel</h1>
+<div class="panel">
+    <!-- Navigation  -->
+    <button onclick="goBack()">Go Back</button>
+    <button onclick="goForward()">Go Forward</button>
+
+    <!--Info -->
+    <button onclick="getBrowserInfo()">Display Browser Info</button>
+    <div id="browserInfo" class="output"></div>
+
+    <!-- Open New Tab -->
+    <button onclick="getNewTab()">Open Google in New Tab</button>
+
+    <!-- Current URL -->
+    <button onclick="displayUrl()">Display Current URL</button>
+    <div id="displayUrlinfo" class="output"></div>
+
+    <!-- Online Status -->
+    <button onclick="checkOnlineStatus()">Check Online Status</button>
+    <div id="statusInfo" class="output"></div>
+</div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
